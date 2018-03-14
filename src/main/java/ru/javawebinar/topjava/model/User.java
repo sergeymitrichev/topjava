@@ -88,4 +88,9 @@ public class User extends AbstractNamedEntity implements Comparable<User> {
                 ", caloriesPerDay=" + caloriesPerDay +
                 ')';
     }
+
+    @Override
+    public int compareTo(User o) {
+        return this.name.compareTo(o.getName());
+    }
 }
