@@ -48,6 +48,6 @@ public class InMemoryUserRepositoryImpl implements UserRepository {
 
     @Override
     public Collection<User> getAll() {
-        return repository.values();
+        return UsersUtil.sortByValue(repository).values();
     }
 }
