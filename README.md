@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3523af4e1eba48708dcbbd5ea25f11c3)](https://www.codacy.com/app/sergeymitrichev/topjava?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sergeymitrichev/topjava&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3523af4e1eba48708dcbbd5ea25f11c3)](https://www.codacy.com/app/sergeymitrichev/topjava?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sergeymitrichev/topjava&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/sergeymitrichev/topjava.svg?branch=master)](https://travis-ci.org/sergeymitrichev/topjava) [![Dependency Status](https://www.versioneye.com/user/projects/5aba1f370fb24f44b0619878/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5aba1f370fb24f44b0619878)
 
 Java Enterprise Online Project 
 ===============================
