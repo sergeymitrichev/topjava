@@ -61,4 +61,14 @@ abstract public class AbstractServiceTest {
             Assert.assertThat(getRootCause(e), instanceOf(exceptionClass));
         }
     }
+
+    //  Check root cause in JUnit: https://github.com/junit-team/junit4/pull/778
+    public <T extends Throwable> void validateRootCause(Runnable runnable, Class<T> exceptionClass) {
+        try {
+            runnable.run();
+            Assert.fail("Expected " + exceptionClass.getName());
+        } catch (Exception e) {
+            Assert.assertThat(getRootCause(e), instanceOf(exceptionClass));
+        }
+    }
 }
